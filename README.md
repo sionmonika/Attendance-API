@@ -26,3 +26,15 @@ A REST API for employee attendance tracking built with Laravel.
 git clone https://github.com/sionmonika/Attendance-API.git
 cd attendance-api
 checkout attendance-api
+
+2. Install dependencies:
+bash
+composer install
+
+3.Run migrations:
+bash
+php artisan migrate
+
+4.Start server:
+bash
+php artisan serve --port=8000
